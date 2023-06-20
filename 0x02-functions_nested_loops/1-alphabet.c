@@ -8,6 +8,13 @@
 
 int main(void)
 {
-	printf("abcdefghijklmnopqrstuvwxyz\n");
-	return (0);
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz\n";
+	int i;
+
+for (i = 0; i < 26; i++)
+{
+putchar(alp[i]);
+}
+putchar('\n');
+return (0);
 }
